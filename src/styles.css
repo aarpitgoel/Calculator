@@ -1,0 +1,85 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  background-color: #c0c0c0;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 30%;
+  background-color: #a9a9a9;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.screenContainer {
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  display: flex;
+  flex-direction: row;
+  height: 85%;
+  width: 92%;
+  font-size: 35px;
+  color: white;
+  background-color: #696969;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.keyContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 75%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+  width: 22%;
+  margin: 1px;
+  font-size: 28px;
+  color: white;
+  background-color: #696969;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.key:hover {
+  background-color: #808080;
+}
